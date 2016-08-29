@@ -1,0 +1,6 @@
+framework module DiginetFramework {
+  umbrella header "DiginetFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72869A701D6ACB7700D72802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72869A6F1D6ACB7700D72802 /* main.m */; };
+		72869A731D6ACB7700D72802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72869A721D6ACB7700D72802 /* AppDelegate.m */; };
+		72869A761D6ACB7700D72802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72869A751D6ACB7700D72802 /* ViewController.m */; };
+		72869A791D6ACB7700D72802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72869A771D6ACB7700D72802 /* Main.storyboard */; };
+		72869A7B1D6ACB7700D72802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72869A7A1D6ACB7700D72802 /* Assets.xcassets */; };
+		72869A7E1D6ACB7700D72802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72869A7C1D6ACB7700D72802 /* LaunchScreen.storyboard */; };
+		72869A891D6ACB7700D72802 /* DiginetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72869A881D6ACB7700D72802 /* DiginetTests.m */; };
+		72869A941D6ACB7700D72802 /* DiginetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72869A931D6ACB7700D72802 /* DiginetUITests.m */; };
+		72869AAB1D6AD00B00D72802 /* DiginetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72869AAA1D6AD00B00D72802 /* DiginetFramework.framework */; };
+		72869AAC1D6AD01300D72802 /* DiginetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72869AAA1D6AD00B00D72802 /* DiginetFramework.framework */; };
+		72869AAD1D6AD01300D72802 /* DiginetFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72869AAA1D6AD00B00D72802 /* DiginetFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72869A851D6ACB7700D72802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72869A631D6ACB7600D72802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72869A6A1D6ACB7600D72802;
+			remoteInfo = Diginet;
+		};
+		72869A901D6ACB7700D72802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72869A631D6ACB7600D72802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72869A6A1D6ACB7600D72802;
+			remoteInfo = Diginet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72869AA51D6ACB9700D72802 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72869AAD1D6AD01300D72802 /* DiginetFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72869A6B1D6ACB7600D72802 /* Diginet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diginet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72869A6F1D6ACB7700D72802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72869A711D6ACB7700D72802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72869A721D6ACB7700D72802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72869A741D6ACB7700D72802 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72869A751D6ACB7700D72802 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72869A781D6ACB7700D72802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72869A7A1D6ACB7700D72802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72869A7D1D6ACB7700D72802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72869A7F1D6ACB7700D72802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72869A841D6ACB7700D72802 /* DiginetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiginetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72869A881D6ACB7700D72802 /* DiginetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiginetTests.m; sourceTree = "<group>"; };
+		72869A8A1D6ACB7700D72802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72869A8F1D6ACB7700D72802 /* DiginetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiginetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72869A931D6ACB7700D72802 /* DiginetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiginetUITests.m; sourceTree = "<group>"; };
+		72869A951D6ACB7700D72802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72869AAA1D6AD00B00D72802 /* DiginetFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiginetFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72869A681D6ACB7600D72802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72869AAC1D6AD01300D72802 /* DiginetFramework.framework in Frameworks */,
+				72869AAB1D6AD00B00D72802 /* DiginetFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A811D6ACB7700D72802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A8C1D6ACB7700D72802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72869A621D6ACB7600D72802 = {
+			isa = PBXGroup;
+			children = (
+				72869A6D1D6ACB7700D72802 /* Diginet */,
+				72869A871D6ACB7700D72802 /* DiginetTests */,
+				72869A921D6ACB7700D72802 /* DiginetUITests */,
+				72869A6C1D6ACB7600D72802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72869A6C1D6ACB7600D72802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72869A6B1D6ACB7600D72802 /* Diginet.app */,
+				72869A841D6ACB7700D72802 /* DiginetTests.xctest */,
+				72869A8F1D6ACB7700D72802 /* DiginetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72869A6D1D6ACB7700D72802 /* Diginet */ = {
+			isa = PBXGroup;
+			children = (
+				72869AAA1D6AD00B00D72802 /* DiginetFramework.framework */,
+				72869A711D6ACB7700D72802 /* AppDelegate.h */,
+				72869A721D6ACB7700D72802 /* AppDelegate.m */,
+				72869A741D6ACB7700D72802 /* ViewController.h */,
+				72869A751D6ACB7700D72802 /* ViewController.m */,
+				72869A771D6ACB7700D72802 /* Main.storyboard */,
+				72869A7A1D6ACB7700D72802 /* Assets.xcassets */,
+				72869A7C1D6ACB7700D72802 /* LaunchScreen.storyboard */,
+				72869A7F1D6ACB7700D72802 /* Info.plist */,
+				72869A6E1D6ACB7700D72802 /* Supporting Files */,
+			);
+			path = Diginet;
+			sourceTree = "<group>";
+		};
+		72869A6E1D6ACB7700D72802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72869A6F1D6ACB7700D72802 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72869A871D6ACB7700D72802 /* DiginetTests */ = {
+			isa = PBXGroup;
+			children = (
+				72869A881D6ACB7700D72802 /* DiginetTests.m */,
+				72869A8A1D6ACB7700D72802 /* Info.plist */,
+			);
+			path = DiginetTests;
+			sourceTree = "<group>";
+		};
+		72869A921D6ACB7700D72802 /* DiginetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72869A931D6ACB7700D72802 /* DiginetUITests.m */,
+				72869A951D6ACB7700D72802 /* Info.plist */,
+			);
+			path = DiginetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72869A6A1D6ACB7600D72802 /* Diginet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72869A981D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "Diginet" */;
+			buildPhases = (
+				72869A671D6ACB7600D72802 /* Sources */,
+				72869A681D6ACB7600D72802 /* Frameworks */,
+				72869A691D6ACB7600D72802 /* Resources */,
+				72869AA51D6ACB9700D72802 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diginet;
+			productName = Diginet;
+			productReference = 72869A6B1D6ACB7600D72802 /* Diginet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72869A831D6ACB7700D72802 /* DiginetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72869A9B1D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "DiginetTests" */;
+			buildPhases = (
+				72869A801D6ACB7700D72802 /* Sources */,
+				72869A811D6ACB7700D72802 /* Frameworks */,
+				72869A821D6ACB7700D72802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72869A861D6ACB7700D72802 /* PBXTargetDependency */,
+			);
+			name = DiginetTests;
+			productName = DiginetTests;
+			productReference = 72869A841D6ACB7700D72802 /* DiginetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72869A8E1D6ACB7700D72802 /* DiginetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72869A9E1D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "DiginetUITests" */;
+			buildPhases = (
+				72869A8B1D6ACB7700D72802 /* Sources */,
+				72869A8C1D6ACB7700D72802 /* Frameworks */,
+				72869A8D1D6ACB7700D72802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72869A911D6ACB7700D72802 /* PBXTargetDependency */,
+			);
+			name = DiginetUITests;
+			productName = DiginetUITests;
+			productReference = 72869A8F1D6ACB7700D72802 /* DiginetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72869A631D6ACB7600D72802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenmangue;
+				TargetAttributes = {
+					72869A6A1D6ACB7600D72802 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					72869A831D6ACB7700D72802 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72869A6A1D6ACB7600D72802;
+					};
+					72869A8E1D6ACB7700D72802 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72869A6A1D6ACB7600D72802;
+					};
+				};
+			};
+			buildConfigurationList = 72869A661D6ACB7600D72802 /* Build configuration list for PBXProject "Diginet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72869A621D6ACB7600D72802;
+			productRefGroup = 72869A6C1D6ACB7600D72802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72869A6A1D6ACB7600D72802 /* Diginet */,
+				72869A831D6ACB7700D72802 /* DiginetTests */,
+				72869A8E1D6ACB7700D72802 /* DiginetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72869A691D6ACB7600D72802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72869A7E1D6ACB7700D72802 /* LaunchScreen.storyboard in Resources */,
+				72869A7B1D6ACB7700D72802 /* Assets.xcassets in Resources */,
+				72869A791D6ACB7700D72802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A821D6ACB7700D72802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A8D1D6ACB7700D72802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72869A671D6ACB7600D72802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72869A761D6ACB7700D72802 /* ViewController.m in Sources */,
+				72869A731D6ACB7700D72802 /* AppDelegate.m in Sources */,
+				72869A701D6ACB7700D72802 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A801D6ACB7700D72802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72869A891D6ACB7700D72802 /* DiginetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72869A8B1D6ACB7700D72802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72869A941D6ACB7700D72802 /* DiginetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72869A861D6ACB7700D72802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72869A6A1D6ACB7600D72802 /* Diginet */;
+			targetProxy = 72869A851D6ACB7700D72802 /* PBXContainerItemProxy */;
+		};
+		72869A911D6ACB7700D72802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72869A6A1D6ACB7600D72802 /* Diginet */;
+			targetProxy = 72869A901D6ACB7700D72802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72869A771D6ACB7700D72802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72869A781D6ACB7700D72802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72869A7C1D6ACB7700D72802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72869A7D1D6ACB7700D72802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72869A961D6ACB7700D72802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72869A971D6ACB7700D72802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72869A991D6ACB7700D72802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Diginet",
+				);
+				INFOPLIST_FILE = Diginet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diginet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72869A9A1D6ACB7700D72802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Diginet",
+				);
+				INFOPLIST_FILE = Diginet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diginet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72869A9C1D6ACB7700D72802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiginetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiginetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diginet.app/Diginet";
+			};
+			name = Debug;
+		};
+		72869A9D1D6ACB7700D72802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiginetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiginetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diginet.app/Diginet";
+			};
+			name = Release;
+		};
+		72869A9F1D6ACB7700D72802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiginetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiginetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diginet;
+			};
+			name = Debug;
+		};
+		72869AA01D6ACB7700D72802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiginetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiginetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diginet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72869A661D6ACB7600D72802 /* Build configuration list for PBXProject "Diginet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72869A961D6ACB7700D72802 /* Debug */,
+				72869A971D6ACB7700D72802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72869A981D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "Diginet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72869A991D6ACB7700D72802 /* Debug */,
+				72869A9A1D6ACB7700D72802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72869A9B1D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "DiginetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72869A9C1D6ACB7700D72802 /* Debug */,
+				72869A9D1D6ACB7700D72802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72869A9E1D6ACB7700D72802 /* Build configuration list for PBXNativeTarget "DiginetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72869A9F1D6ACB7700D72802 /* Debug */,
+				72869AA01D6ACB7700D72802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72869A631D6ACB7600D72802 /* Project object */;
+}
